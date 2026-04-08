@@ -1,12 +1,12 @@
 advanced multi-client chat application built using socket programming written in C++. The System supports Simultaneous non-blocking communication using the TCP and UDP protocols reliably with speed and can handle different types of data. (messages, files, audio, video)
 
 # Features
-⦁	User Authentication
-⦁	Private Messaging
-⦁	File Sharing
-⦁	User Status Management
-⦁	Persistent Message History (last 100 messages)
-⦁	Real Time Join/leave notifications over UDP
+-	User Authentication
+-	Private Messaging
+- File Sharing
+- User Status Management
+- Persistent Message History (last 100 messages)
+- Real Time Join/leave notifications over UDP
 
 Both TCP and UDP were used in this application. UDP (port 8081) used when messages were to be sent quickly and TCP (port 8080) for reliable communication, both having separate servers that handle requests from clients and forward those requests. The Client has socket connections to both servers. 
 
